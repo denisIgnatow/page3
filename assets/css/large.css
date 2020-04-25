@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a,
+button,
+[type = submit] {
+  cursor: pointer;
+}
+
+body {
+  font-family: 'ProximaNova', sans-serif;
+  color: #fff;
+  background: url(../img/background-desktop.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  max-width: 1059.33px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 658px;
+  width: 95%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+  width: 100%;
+}
+
+header .wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 103px;
+}
+
+.header__logo {
+  width: 200px;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__link {
+  margin-left: 14px;
+  text-decoration: underline;
+}
+
+.header__link:hover {
+  color: #ed1c2a;
+  background: none;
+}
+
+.header__link img {
+  max-width: 16px;
+}
+
+/* MAIN */
+
+main {
+  padding-top: 65px;
+}
+
+.text-content {
+  max-width: 50%;
+  margin-left: 46px;
+}
+
+.text-content__title {
+  font-size: 24px;
+  font-weight: normal;
+  color: #ed1c2a;
+}
+
+.text-content__par {
+  margin: 25px 0;
+  font-size: 12px;
+}
+
+.text-content__calculate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  padding: 7px 10px;
+  background: #ed1c2a;
+  text-transform: uppercase;
+}
+
+.text-content__calculate:hover {
+  background: #ea3c47;
+}
+
+.text-content__calculate:active {
+  border: 1px solid #ed1c2a;
+  background: none;
+}
+
+/* FOOTER */
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  border-top: 2px solid #cdcfd1;
+}
+
+footer .wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 81px;
+}
+
+.company-name {
+  font-size: 12px;
+}
+
+.address__phone {
+  font-size: 20px;
+  font-weight: bold;
+  font-style: normal;
+}
+
+.address__email {
+  font-size: 12px;
+  text-decoration: underline;
+  font-style: normal;
+}
+
+.display_none {
+  display: none;
+}

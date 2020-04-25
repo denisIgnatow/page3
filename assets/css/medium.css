@@ -1,0 +1,40 @@
+body {
+  background: url(../img/background-mobile.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.wrapper {
+  max-width: 472px;
+  margin: 0 auto;
+}
+
+.header__logo {
+  width: 132.33px;
+}
+
+.header__nav {
+  font-size: 10px;
+}
+
+main {
+  padding-top: 0;
+}
+
+main .wrapper {
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.text-content {
+  margin-bottom: 0;
+}
+
+.background_obj {
+  min-width: 100%;
+}
+
+.company-name,
+.address-email {
+  font-size: 8px;
+}
